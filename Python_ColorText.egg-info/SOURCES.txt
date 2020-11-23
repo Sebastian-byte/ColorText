@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ColorText/ColorText.py
+ColorText/__init__.py
+Python_ColorText.egg-info/PKG-INFO
+Python_ColorText.egg-info/SOURCES.txt
+Python_ColorText.egg-info/dependency_links.txt
+Python_ColorText.egg-info/top_level.txt
