@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Python-ColorText",
-    version="1.0.2",
+    version="1.0.3",
     license="GPL v3",
     author="Sebastian Montoya",
     author_email="sebastianmontoya209@gmail.com",
