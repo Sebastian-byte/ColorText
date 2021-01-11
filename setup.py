@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Python-ColorText",
-    version="1.0.3",
+    version="1.1.0",
     license="GPL v3",
     author="Sebastian Montoya",
     author_email="sebastianmontoya209@gmail.com",
@@ -14,6 +14,9 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Sebastian-byte/ColorText",
     packages=setuptools.find_packages(),
+    install_requires = [
+       "colorama",
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
