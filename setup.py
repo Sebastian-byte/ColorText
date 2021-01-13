@@ -1,11 +1,11 @@
-import setuptools
+from setuptools import setup, find_packages
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+setup(
     name="Python-ColorText",
-    version="1.1.1",
+    version="1.1.2",
     license="GPL v3",
     author="Sebastian Montoya",
     author_email="sebastianmontoya209@gmail.com",
@@ -13,7 +13,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Sebastian-byte/ColorText",
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
     install_requires = [
        "colorama",
     ],
